@@ -11,6 +11,7 @@ import meteordevelopment.meteorclient.utils.player.InvUtils;
 import meteordevelopment.meteorclient.utils.player.Rotations;
 import meteordevelopment.orbit.EventHandler;
 import net.minecraft.item.Item;
+import net.minecraft.item.Items;
 import net.minecraft.network.packet.c2s.play.CloseHandledScreenC2SPacket;
 import net.minecraft.screen.ScreenHandler;
 import net.minecraft.screen.ScreenHandlerType;
@@ -66,6 +67,26 @@ public class StuffStealer extends Module {
     private final Setting<List<Item>> stealItems = sgStealDump.add(new ItemListSetting.Builder()
         .name("steal-items")
         .description("Items to steal.")
+        .defaultValue(Arrays.asList(
+            Items.DIAMOND,
+            Items.EMERALD,
+            Items.NETHERITE_INGOT,
+            Items.NETHERITE_SCRAP,
+            Items.ANCIENT_DEBRIS,
+            Items.GOLD_INGOT,
+            Items.IRON_INGOT,
+            Items.ENDER_PEARL,
+            Items.BLAZE_ROD,
+            Items.NETHER_STAR,
+            Items.ENCHANTED_GOLDEN_APPLE,
+            Items.TOTEM_OF_UNDYING,
+            Items.ELYTRA,
+            Items.DIAMOND_BLOCK,
+            Items.EMERALD_BLOCK,
+            Items.GOLD_BLOCK,
+            Items.IRON_BLOCK,
+            Items.NETHERITE_BLOCK
+        ))
         .build()
     );
 
