@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "id": "jatthira",
+  "version": "${version}",
+  "name": "MCM4MC",
+  "description": "Bunch of modules for Meteor Client.",
+  "authors": [
+    "Harman Singh Hira"
+  ],
+  "contact": {
+    "homepage": "https://hsinghhira.me",
+    "issues": "https://github.com/HSinghHira/MCM4MC/issues",
+    "sources": "https://github.com/HSinghHira/MCM4MC"
+  },
+  "icon": "assets/jatthira/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "meteor": [
+      "im.hira.tweaks.MCM4MC"
+    ]
+  },
+  "mixins": [
+    "jatthira.mixins.json"
+  ],
+  "custom": {
+    "meteor-client:color": "225,25,25"
+  },
+  "depends": {
+    "java": ">=21",
+    "minecraft": [">=1.21.7", "<=1.21.8"],
+    "meteor-client": "*"
+  }
+}
