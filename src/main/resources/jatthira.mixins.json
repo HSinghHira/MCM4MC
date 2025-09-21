@@ -6,7 +6,8 @@
   ],
   "client": [
     "ModulesScreenMixin",
-    "SingleModuleScreenMixin"
+    "SingleModuleScreenMixin",
+    "PlayerPositionLookS2CPacketAccessor"
   ],
   "injectors": {
     "defaultRequire": 1

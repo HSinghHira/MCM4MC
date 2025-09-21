@@ -1,10 +1,14 @@
 package im.hira.tweaks;
 
 import im.hira.tweaks.category.CustomCategoryManager;
+
 import im.hira.tweaks.modules.Buildings.*;
 import im.hira.tweaks.modules.Combats.*;
 import im.hira.tweaks.modules.Movements.*;
 import im.hira.tweaks.modules.Utilities.*;
+import im.hira.tweaks.modules.Render.*;
+import im.hira.tweaks.modules.Dupes.*;
+
 import com.mojang.logging.LogUtils;
 import meteordevelopment.meteorclient.addons.MeteorAddon;
 import meteordevelopment.meteorclient.systems.modules.Category;
@@ -19,10 +23,12 @@ public class MCM4MC extends MeteorAddon {
     public static final Category JH_UTILITIES_CAT = new Category("JH Utilities");
     public static final Category JH_COMBAT_CAT = new Category("JH Combat");
     public static final Category JH_MOVEMENT_CAT = new Category("JH Movement");
+    public static final Category JH_RENDER_CAT = new Category("JH Render");
+    public static final Category JH_DUPES_CAT = new Category("JH Dupes");
 
     @Override
     public void onInitialize() {
-        LOG.info("Initializing");
+        LOG.info("Initializing MCM4MC addon");
 
         CustomCategoryManager.init();
 
@@ -36,6 +42,11 @@ public class MCM4MC extends MeteorAddon {
         Modules.get().add(new HotkeyUtility());
         Modules.get().add(new ChestIndex());
         Modules.get().add(new StuffStealer());
+        Modules.get().add(new DisableMods());
+
+        // JH Render Modules
+        Modules.get().add(new BigCavesESP());
+        Modules.get().add(new OreESP());
 
         // JH Combat Modules
         Modules.get().add(new LegitMaceKill());
@@ -44,6 +55,11 @@ public class MCM4MC extends MeteorAddon {
 
         // JH Movement Modules
         Modules.get().add(new AFKVanillaFly());
+
+        // JH Dupes Modules
+        Modules.get().add(new TridentDupe());
+
+        LOG.info("MCM4MC addon initialization complete");
     }
 
     @Override
@@ -51,7 +67,9 @@ public class MCM4MC extends MeteorAddon {
         Modules.registerCategory(JH_BUILD_CAT);
         Modules.registerCategory(JH_UTILITIES_CAT);
         Modules.registerCategory(JH_COMBAT_CAT);
-        Modules.registerCategory(JH_MOVEMENT_CAT); // Register new category
+        Modules.registerCategory(JH_MOVEMENT_CAT);
+        Modules.registerCategory(JH_RENDER_CAT);
+        Modules.registerCategory(JH_DUPES_CAT);
     }
 
     @Override
