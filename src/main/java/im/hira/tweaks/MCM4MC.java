@@ -72,14 +72,18 @@ public class MCM4MC extends MeteorAddon {
         Modules.get().add(new BoatCrash());
         Modules.get().add(new BookCrash());
         Modules.get().add(new ContainerCrash());
+        Modules.get().add(new CraftingCrash());
         Modules.get().add(new EntityCrash());
         Modules.get().add(new InvalidPositionCrash());
+        Modules.get().add(new LecternCrash());
         Modules.get().add(new LoginCrash());
         Modules.get().add(new MessageLagger());
         Modules.get().add(new MovementCrash());
+        Modules.get().add(new NoComCrash());
         Modules.get().add(new PacketSpammer());
         Modules.get().add(new SignCrash());
         Modules.get().add(new TryUseCrash());
+
 
         LOG.info("MCM4MC addon initialization complete");
     }

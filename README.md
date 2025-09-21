@@ -1,4 +1,7 @@
 # MCM4MC - Meteor Client Mods for Minecraft
+
+---
+
 [![Harman Singh Hira](https://img.shields.io/badge/hsinghhira.me-000000?style=for-the-badge&logo=About.me&logoColor=white "Harman Singh Hira")](https://hsinghhira.me)
 [![GitHub Release](https://img.shields.io/github/v/release/hsinghhira/MCM4MC?include_prereleases&sort=date&display_name=tag&style=for-the-badge)](Releases)
 [![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg?style=for-the-badge)](LICENSE)
@@ -48,17 +51,20 @@ This is a collection of mods for the Meteor Client in Minecraft. These mods are 
 
 ### 💥 Crash Mods
 - **AAC Crash**: Supposed crash methods for servers using AAC.
-- **BoatCrash**: Tries to crash the server when you are in a boat.
-- **BookCrash**: Tries to crash the server by sending bad book sign packets.
-- **ContainerCrash**: Attempts to crash servers by spamming block interaction packets.
-- **EntityCrash**: Tries to crash the server when you are riding an entity.
-- **InvalidPositionCrash**: Attempts to crash the server by sending invalid position packets.
-- **LoginCrash**: Supposed crash methods during login.
-- **MessageLagger**: Sends dense messages that lag other players on the server.
-- **MovementCrash**: Tries to crash the server by spamming move packets.
-- **PacketCrash**: Spams movement packets to the server. Likely to get you kicked instantly.
-- **SignCrash**: Supposed crash methods using signs.
-- **TryUserCrash**: Tries to crash the server by spamming use packets.
+- **Boat Crash**: Tries to crash the server when you are in a boat.
+- **Book Crash**: Tries to crash the server by sending bad book sign packets.
+- **Container Crash**: Attempts to crash servers by spamming block interaction packets.
+- **Entity Crash**: Tries to crash the server when you are riding an entity.
+- **Invalid Position Crash**: Attempts to crash the server by sending invalid position packets.
+- **Login Crash**: Supposed crash methods during login.
+- **MessageL agger**: Sends dense messages that lag other players on the server.
+- **Movement Crash**: Tries to crash the server by spamming move packets.
+- **Packet Crash**: Spams movement packets to the server. Likely to get you kicked instantly.
+- **Sign Crash**: Supposed crash methods using signs.
+- **TryUser  Crash**: Tries to crash the server by spamming use packets.
+- **Crafting Crash**: Attempts to crash the server by spamming crafting packets.
+- **Lectern Crash**: Try to crash the server by spamming funny lectern packets.
+- **No Com Crash**: Crashes vanilla and Spigot servers by spamming interaction packets..
 
 ---
 
@@ -83,7 +89,7 @@ If you want a version for a different Minecraft or Meteor Client version, please
 ## 🤘 About
 This project is a personal endeavor to create useful mods for the Meteor Client. It is not affiliated with Meteor Client or its developers. The mods are designed to be lightweight and easy to use, enhancing your Minecraft experience without overwhelming you with options.
 
-The project still under beta, so expect bugs and incomplete features. Please report any issues you encounter.
+The project still under beta (I think), so expect bugs and incomplete features. Please report any issues you encounter.
 
 ---
 
@@ -101,13 +107,25 @@ This repository is open-source, and contributions are welcome. Feel free to fork
 - @etianl: http://go.hsinghhira.me/MaceKill
 - @miles352: http://go.hsinghhira.me/ChestIndex
 - @xqyet: http://go.hsinghhira.me/AFKVanillaFly
-- @realnnpg: http://go.hsinghhira.me/HackDisabler _(Just Basic Functionality)_
+- @realnnpg: http://go.hsinghhira.me/HackDisabler
 - @icedagger101: http://go.hsinghhira.me/BigCaves
 - @Killet @Laztec @Ionar: http://go.hsinghhira.me/TridentDupe
 - @0x150
+- @AntiCope: https://github.com/AntiCope/
+- @Wide-Cat: https://github.com/Wide-Cat
+- @C10udburst: https://github.com/C10udburst
+- @TaxEvasiqn: https://github.com/TaxEvasiqn
+- @gigglingbed: https://github.com/gigglingbed
+- @sbxte: https://github.com/sbxte
+- @RedCarlos26: https://github.com/RedCarlos26
+- @supakeks: https://github.com/supakeks
+- @hashalite: https://github.com/hashalite
+- @crazymoose7: https://github.com/crazymoose7
+- @hexadecimal233: https://github.com/hexadecimal233
+- @Hankung7183: https://github.com/Hankung7183
 - @BleachDev: https://github.com/BleachDev
 - The [Meteor Development](https://github.com/meteordevelopment) team for creating an amazing modding platform.
-- The Minecraft community for their support and feedback.
-- All the contributors who have helped improve this kind of project.
+- The Minecraft community.
+- All the contributors who have helped improve this kind of projects.
 
 
