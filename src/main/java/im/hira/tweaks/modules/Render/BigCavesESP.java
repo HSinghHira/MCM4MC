@@ -105,7 +105,7 @@ public class BigCavesESP extends Module {
     private final int maxFloodNodesMultiplayer = 20_000;
 
     public BigCavesESP() {
-        super(MCM4MC.JH_RENDER_CAT, "Find Big Caves", "Finds and highlights large cave systems (optimized).");
+        super(MCM4MC.JH_RENDER_CAT, "Big Caves ESP", "Finds and highlights large cave systems (optimized).");
     }
 
     @Override

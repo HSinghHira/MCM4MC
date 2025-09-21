@@ -46,6 +46,20 @@ This is a collection of mods for the Meteor Client in Minecraft. These mods are 
 ### 🛡️ Duping Mods
 - **TridentDupe**: Simplifies the trident duplication glitch for easy item duplication.
 
+### 💥 Crash Mods
+- **AAC Crash**: Supposed crash methods for servers using AAC.
+- **BoatCrash**: Tries to crash the server when you are in a boat.
+- **BookCrash**: Tries to crash the server by sending bad book sign packets.
+- **ContainerCrash**: Attempts to crash servers by spamming block interaction packets.
+- **EntityCrash**: Tries to crash the server when you are riding an entity.
+- **InvalidPositionCrash**: Attempts to crash the server by sending invalid position packets.
+- **LoginCrash**: Supposed crash methods during login.
+- **MessageLagger**: Sends dense messages that lag other players on the server.
+- **MovementCrash**: Tries to crash the server by spamming move packets.
+- **PacketCrash**: Spams movement packets to the server. Likely to get you kicked instantly.
+- **SignCrash**: Supposed crash methods using signs.
+- **TryUserCrash**: Tries to crash the server by spamming use packets.
+
 ---
 
 ## ⬇️ Installation
@@ -90,7 +104,9 @@ This repository is open-source, and contributions are welcome. Feel free to fork
 - @realnnpg: http://go.hsinghhira.me/HackDisabler _(Just Basic Functionality)_
 - @icedagger101: http://go.hsinghhira.me/BigCaves
 - @Killet @Laztec @Ionar: http://go.hsinghhira.me/TridentDupe
-- The Meteor Client team for creating an amazing modding platform.
+- @0x150
+- @BleachDev: https://github.com/BleachDev
+- The [Meteor Development](https://github.com/meteordevelopment) team for creating an amazing modding platform.
 - The Minecraft community for their support and feedback.
 - All the contributors who have helped improve this kind of project.
 
