@@ -1,6 +1,8 @@
 package im.hira.tweaks;
 
 import im.hira.tweaks.category.CustomCategoryManager;
+
+import im.hira.tweaks.gui.themes.StarLight.Starlight;
 import im.hira.tweaks.modules.Buildings.*;
 import im.hira.tweaks.modules.Combats.*;
 import im.hira.tweaks.modules.Movements.*;
@@ -10,10 +12,7 @@ import im.hira.tweaks.modules.Dupes.*;
 import im.hira.tweaks.modules.Crash.*;
 
 import com.mojang.logging.LogUtils;
-import meteordevelopment.meteorclient.MeteorClient;
 import meteordevelopment.meteorclient.addons.MeteorAddon;
-import meteordevelopment.meteorclient.systems.hud.Hud;
-import meteordevelopment.meteorclient.systems.hud.HudGroup;
 import meteordevelopment.meteorclient.systems.modules.Category;
 import meteordevelopment.meteorclient.systems.modules.Modules;
 import meteordevelopment.meteorclient.gui.GuiThemes;
@@ -50,6 +49,9 @@ public class MCM4MC extends MeteorAddon {
         Modules.get().add(new ChestIndex());
         Modules.get().add(new StuffStealer());
         Modules.get().add(new DisableMods());
+        Modules.get().add(new Taunt());
+        Modules.get().add(new HideScoreboard());
+        Modules.get().add(new VillagerTrader());
 
         // JH Render Modules
         Modules.get().add(new BigCavesESP());
@@ -63,6 +65,7 @@ public class MCM4MC extends MeteorAddon {
 
         // JH Movement Modules
         Modules.get().add(new AFKVanillaFly());
+        Modules.get().add(new EntityFly());
 
         // JH Dupes Modules
         Modules.get().add(new TridentDupe());
@@ -84,6 +87,8 @@ public class MCM4MC extends MeteorAddon {
         Modules.get().add(new SignCrash());
         Modules.get().add(new TryUseCrash());
 
+        // JH Themes
+        GuiThemes.add( new Starlight() );
 
         LOG.info("MCM4MC addon initialization complete");
     }

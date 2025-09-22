@@ -8,6 +8,8 @@
     "ModulesScreenMixin",
     "SingleModuleScreenMixin",
     "PlayerPositionLookS2CPacketAccessor",
+    "BetterGuiMerchantAccessor",
+    "GuiRendererAccessor",
     "LoginHelloC2SPacketMixin"
   ],
   "injectors": {

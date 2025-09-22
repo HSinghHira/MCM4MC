@@ -6,7 +6,6 @@
 [![GitHub Release](https://img.shields.io/github/v/release/hsinghhira/MCM4MC?include_prereleases&sort=date&display_name=tag&style=for-the-badge)](Releases)
 [![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg?style=for-the-badge)](LICENSE)
 [![GitHub issues](https://img.shields.io/github/issues/HSinghHira/MCM4MC?style=for-the-badge)](Issues)
-[![GitHub forks](https://img.shields.io/github/forks/HSinghHira/MCM4MC?style=for-the-badge)](Forks)
 [![GitHub stars](https://img.shields.io/github/stars/HSinghHira/MCM4MC?style=for-the-badge)](Stars)
 
 ---
@@ -17,37 +16,45 @@ This is a collection of mods for the Meteor Client in Minecraft. These mods are 
 
 ---
 
+## ✨ Themes Included:
+- **Star Light Theme**: A sleek and modern dark theme for the Meteor Client interface.
+
+---
+
 ## ✨ Mods Included:
 
 ### 🔧 Top-Level Mods
 - **Custom Category**: Adds a custom category to the Meteor Client mod list, like Favorites.
 
 ### 👩‍🌾 Building Mods
-- **AutoDirtPath**: Automatically creates dirt paths when walking on grass blocks.
-- **AutoFarmLand**: Automatically farms land when holding a hoe.
-- **AutoLogStrip**: Automatically strips logs when holding an axe.
+- **Auto Dirt Path**: Automatically creates dirt paths when walking on grass blocks.
+- **Auto Farmland**: Automatically farms land when holding a hoe.
+- **Auto Log Strip**: Automatically strips logs when holding an axe.
 
 ### 🥷 Combat Mods
-- **LegitMaceKill**: Amplifies mace damage based on fall distance. Only works when falling from minimum height.
-- **MaceCombo**: Auto-attacks targets and chains mace combos with wind charges.
-- **WindChargeJump**: Automatically performs a jump when a wind charge is available.
+- **Legit Mace Kill**: Amplifies mace damage based on fall distance. Only works when falling from minimum height.
+- **Mace Combo**: Auto-attacks targets and chains mace combos with wind charges.
+- **Wind Charge Jump**: Automatically performs a jump when a wind charge is available.
 
 ### 🎮 Utility Mods
-- **ChatUtility**: Provides various chat-related utilities.
-- **ChestIndex**: Automatically indexes items in Storage Blocks for easy access. (Use with Mods like Jade, etc.)
-- **StuffStealer**: Automatically steals items from Storage Blocks based on a predefined list.
-- **HotKeyUtility**: Allows you to set key combinations to switch to a specific hotbar slot.
-- **DisableMods**: Advanced module management with staff detection and safety features.
+- **Chat Utility**: Provides various chat-related utilities.
+- **Chest Index**: Automatically indexes items in Storage Blocks for easy access. (Use with Mods like Jade, etc.)
+- **Stuff Stealer**: Automatically steals items from Storage Blocks based on a predefined list.
+- **Hotkey Utility**: Allows you to set key combinations to switch to a specific hotbar slot.
+- **Disable Mods**: Advanced module management with staff detection and safety features.
+- **Taunt**: Automatically send a taunt chat message when you kill a player.
+- **Hide Scoreboard**: Hides the annoying scoreboard from servers.
+- **Villager Trader _(Beta)_**: Automatically trades with villagers based on predefined trade lists.
 
 ### 🎨 Movement Mods
-- AFKVanillaFly: Simulates vanilla AFK behavior to avoid detection.
+- **AFK Vanilla Fly**: Simulates vanilla AFK behavior to avoid detection.
 
 ### 🌍 Rendering Mods
-- **BigCavesESP**: Expands cave generation to create larger and more intricate cave systems.
-- **OreESP**: Highlights ores through walls and terrain for easy identification.
+- **Big Caves ESP**: Expands cave generation to create larger and more intricate cave systems.
+- **Ore ESP**: Highlights ores through walls and terrain for easy identification.
 
 ### 🛡️ Duping Mods
-- **TridentDupe**: Simplifies the trident duplication glitch for easy item duplication.
+- **Trident Dupe**: Simplifies the trident duplication glitch for easy item duplication.
 
 ### 💥 Crash Mods
 - **AAC Crash**: Supposed crash methods for servers using AAC.
@@ -64,7 +71,7 @@ This is a collection of mods for the Meteor Client in Minecraft. These mods are 
 - **TryUser  Crash**: Tries to crash the server by spamming use packets.
 - **Crafting Crash**: Attempts to crash the server by spamming crafting packets.
 - **Lectern Crash**: Try to crash the server by spamming funny lectern packets.
-- **No Com Crash**: Crashes vanilla and Spigot servers by spamming interaction packets..
+- **No Com Crash**: Crashes vanilla and Spigot servers by spamming interaction packets.
 
 ---
 

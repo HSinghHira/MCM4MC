@@ -46,7 +46,7 @@ public class EntityFly extends Module {
     // Constructor
 
     public EntityFly() {
-        super(MCM4MC.JH_MOVEMENT_CAT, "Entity Fly", "Allows you to fly with any rideable entity such as Boat, etc.");
+        super(MCM4MC.JH_MOVEMENT_CAT, "Entity Fly", "Allows you to fly with any liveable rideable entity such as horse, etc.");
     }
 
     // Living Entity Move Event
@@ -63,9 +63,13 @@ public class EntityFly extends Module {
             double velZ = vel.getZ();
 
             // Vertical Movement
-            if (mc.options.jumpKey.isPressed()) velY += verticalSpeed.get() / 20;
-            if (mc.options.sprintKey.isPressed()) velY -= verticalSpeed.get() / 20;
-            else velY -= fallSpeed.get() / 20;
+            if (mc.options.jumpKey.isPressed()) {
+                velY += verticalSpeed.get() / 20;
+            } else if (mc.options.sprintKey.isPressed()) {
+                velY -= verticalSpeed.get() / 20;
+            } else {
+                velY -= fallSpeed.get() / 20;
+            }
 
             // Apply Velocity
             event.entity.setVelocity(new Vec3d(velX, velY, velZ));
