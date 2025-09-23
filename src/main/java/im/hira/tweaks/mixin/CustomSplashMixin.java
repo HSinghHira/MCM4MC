@@ -61,7 +61,7 @@ public class CustomSplashMixin extends Screen {
 
         // Try to fetch from URL first
         try {
-            List<String> fetchedSplashes = fetchSplashesFromURL("https://cdn.jsdelivr.net/gh/HSinghHira/MCM4MC@main/src/main/resources/assets/jatthira/splash.txt");
+            List<String> fetchedSplashes = fetchSplashesFromURL("https://github.com/HSinghHira/MCM4MC/blob/main/src/main/resources/assets/jatthira/splash.txt?raw=1");
             if (!fetchedSplashes.isEmpty()) {
                 splashes.addAll(fetchedSplashes);
                 return splashes;
