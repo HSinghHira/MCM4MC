@@ -10,6 +10,7 @@
     "PlayerPositionLookS2CPacketAccessor",
     "BetterGuiMerchantAccessor",
     "GuiRendererAccessor",
+    "CustomSplashMixin",
     "LoginHelloC2SPacketMixin"
   ],
   "injectors": {
